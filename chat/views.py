@@ -9,5 +9,5 @@ def index(request):
 
 def room(request, room_name):
 	return render(request, 'chat/room.html', {
-	'room_name_jason': make_safe(jason_dumps(room_name))
+	'room_name_jason': mark_safe(jason_dumps(room_name))
 	})

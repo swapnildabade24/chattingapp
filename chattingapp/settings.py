@@ -71,6 +71,7 @@ TEMPLATES = [
 
 ASGI_APPLICATION = 'chattingapp.routing.application'
 
+
 WSGI_APPLICATION = 'chattingapp.wsgi.application'
 
 
